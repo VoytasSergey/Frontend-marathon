@@ -1,0 +1,77 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Serif+Display:ital@1&display=swap');
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family:'Noto Serif Display', serif;
+  background-color: #000000;
+  display: flex;
+  padding-top: 5rem;
+  justify-content: center;
+  overflow: hidden;
+  margin: 0;
+}
+
+.row {
+  display: flex;
+  width: 600px;
+  justify-content: space-between;
+  margin-bottom: 1rem;
+}
+
+
+
+.col-header {
+  width: 150px;
+  box-shadow: 4px 4px 9px rgba(198, 198, 198, 0.36);
+  border-radius: 20px;
+  padding: 0.8rem 1rem;
+  color: rgb(0, 0, 0);
+}
+
+.item {
+  width: 150px;
+  height: 66px;
+  border: 1px solid rgb(121, 121, 121);
+  box-shadow: 4px 4px 9px rgba(198, 198, 198, 0.36);
+  border-radius: 20px;
+  padding: 0.8rem 1rem;
+  color:#000000;
+  background: linear-gradient(90deg, #141414, #08f327);
+  text-align: center;
+  cursor: grab;
+}
+
+.item:active {
+  cursor: grabbing;
+}
+
+.placeholder {
+  width: 150px;
+  height: 66px;
+}
+
+.start {
+  background: linear-gradient(90deg, #807e2c, #e4db9f);
+}
+
+.progress {
+  background: linear-gradient(90deg, #b49ab3, #bc74ce, #f076e6);
+}
+
+.done {
+  background: linear-gradient(85deg, #cf35ee, #d13e2a);
+}
+
+.hold {
+border: 2px solid #271a1a;
+}
+.hide {
+  display: none;
+}
+
+.hovered {
+border-top: 1px solid #7a7676;
+}
+
